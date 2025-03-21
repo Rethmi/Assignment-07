@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: palevioletred;
+}
+.line-1 {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-left: 25px;
+}
+.man-container {
+  position: relative;
+  width: 13%;
+  height: 200px;
+  padding: 0;
+  /* margin-top: 100px; */
+}
+.man {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+}
+.letter {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: teal;
+  cursor: pointer;
+}
+.house {
+  position: absolute;
+  width: 190px;
+  height: 150px;
+  top: 22%;
+  left: 80%;
+}
+button {
+  padding: 13px 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, transform 0.3s, border 0.3s;
+  margin-top: 100px;
+  /* border-radius: 100px; */
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-1 {
+  margin-right: 10px;
+}
+.btn-2 {
+  margin-left: 10px;
+}
+.start-btn {
+  background-color: #4caf50;
+  border-radius: 25px 0px 0px 25px;
+}
+.stop-btn {
+  background-color: #f44336;
+  border-radius: 0px 25px 25px 0px;
+}
+.start-btn:hover {
+  background-color: #117616;
+  transform: scale(1.1);
+  border: 1px solid #00ff0d;
+}
+.stop-btn:hover {
+  background-color: #b71c1c;
+  transform: scale(1.1);
+  border: 1px solid #ff0000;
+}
